@@ -1,0 +1,33 @@
+<p><!DOCTYPE html> <html lang=&quot;en&quot;> <head>  <meta charset=&quot;UTF-8&quot;>  <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;>  <title>Portfolio</title>  <style>  /* Basic Reset */  * {  margin: 0;  padding: 0;  box-sizing: border-box;  font-family: Arial, sans-serif;  }</p>
+
+<p> /* General Styles */  body {  color: #333;  background-color: #f4f4f4;  }</p>
+
+<p> h1, h2 {  color: navy;  }</p>
+
+<p> /* Opening Page */  .header {  height: 100vh;  background: url('your-landscape-photo.jpg') no-repeat center center/cover;  display: flex;  align-items: center;  justify-content: center;  flex-direction: column;  color: white;  text-align: center;  }</p>
+
+<p> .header h1 {  font-size: 3em;  }</p>
+
+<p> /* About Page */  .section {  padding: 50px 20px;  }</p>
+
+<p> .about {  background-color: #e9ecef;  }</p>
+
+<p> .about-content {  max-width: 800px;  margin: auto;  line-height: 1.6;  }</p>
+
+<p> /* Gallery Page */  .gallery {  display: flex;  flex-wrap: wrap;  justify-content: center;  gap: 10px;  }</p>
+
+<p> .gallery img {  width: 100%;  max-width: 200px;  height: auto;  border-radius: 8px;  }</p>
+
+<p> /* Links Page */  .links {  text-align: center;  padding: 20px;  }</p>
+
+<p> .links a {  text-decoration: none;  margin: 0 10px;  color: navy;  font-size: 1.2em;  }  </style> </head> <body></p>
+
+<p> <!-- Opening Page -->  <section class=&quot;header&quot;>  <h1>Your Name</h1>  <p>Your Tagline or Brief Intro</p>  </section></p>
+
+<p> <!-- About Page -->  <section class=&quot;section about&quot; id=&quot;about&quot;>  <h2>About Me</h2>  <div class=&quot;about-content&quot;>  <p>Your bio goes here. Share something about yourself, your goals, or anything relevant.</p>  </div>  </section></p>
+
+<p> <!-- Gallery Page -->  <section class=&quot;section gallery&quot; id=&quot;gallery&quot;>  <h2>Gallery</h2>  <div>  <img src=&quot;image1.jpg&quot; alt=&quot;Image 1&quot;>  <img src=&quot;image2.jpg&quot; alt=&quot;Image 2&quot;>  <img src=&quot;image3.jpg&quot; alt=&quot;Image 3&quot;>  <!-- Add more images as needed -->  </div>  </section></p>
+
+<p> <!-- Links Page -->  <section class=&quot;section links&quot; id=&quot;links&quot;>  <h2>Connect with Me</h2>  <a href=&quot;https://facebook.com/yourprofile&quot; target=&quot;_blank&quot;>Facebook</a>  <a href=&quot;https://twitter.com/yourprofile&quot; target=&quot;_blank&quot;>Twitter</a>  <a href=&quot;https://linkedin.com/in/yourprofile&quot; target=&quot;_blank&quot;>LinkedIn</a>  <!-- Add more links as needed -->  </section></p>
+
+<p></body> </html></p>
